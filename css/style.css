@@ -216,6 +216,7 @@ header {
     background-blend-mode: multiply;
     background-attachment: fixed;
     border-radius: .3em;
+    background-position: bottom right;
     height: 30vh;
     max-width: 950px;
     margin: auto;
@@ -224,8 +225,8 @@ header {
 .intro_img {
     border-radius: 50%;
     border: .4em solid var(--clr-light);
-    max-width: 250px;
-    margin: -200px auto 20px;
+    max-width: 200px;
+    margin: -150px auto 20px;
 }
 
 .section_subtitle-intro {
@@ -243,6 +244,7 @@ header {
     background-size: cover;
     background-blend-mode: multiply;
     background-attachment: fixed;
+    background-position: bottom right;
     color: var(--clr-light);
     text-align: center;
 }
@@ -436,7 +438,8 @@ header {
     }
   
     .intro_img {
-        margin-bottom: 30px;;
+        margin-bottom: 30px;
+        max-width: 250px;
     }
 
     .about-me {
