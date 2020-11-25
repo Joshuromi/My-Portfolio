@@ -210,13 +210,12 @@ header {
 }
 
 .top-img-div {
-    background-color: #555;
+    background-color: #999;
     background-image: url("https://cdn.glitch.com/e0734b5a-af56-4de9-a956-dc05ac46315c%2Fbackground1.jpg?v=1587215867837");
     background-size: cover;
     background-blend-mode: multiply;
     background-attachment: fixed;
     border-radius: .3em;
-    background-position: bottom right;
     height: 30vh;
     max-width: 950px;
     margin: auto;
@@ -239,12 +238,11 @@ header {
 /* My services section */
 
 .my-services {
-    background-color: #555;
+    background-color: #444;
     background-image: url("https://cdn.glitch.com/e0734b5a-af56-4de9-a956-dc05ac46315c%2Fbackground1.jpg?v=1587215867837");
     background-size: cover;
     background-blend-mode: multiply;
     background-attachment: fixed;
-    background-position: bottom right;
     color: var(--clr-light);
     text-align: center;
 }
