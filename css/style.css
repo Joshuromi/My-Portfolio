@@ -139,6 +139,7 @@ header {
     right: 1em;
     align-self: center;
     z-index: 100;
+    display: none;
 }
 
 .nav-open .nav {
@@ -419,10 +420,6 @@ header {
 }
 
 @media (min-width: 600px) {
-    .hamburger {
-        display: none;
-    }
-
     .intro_img {
         margin-bottom: 30px;
     }
@@ -458,7 +455,7 @@ header {
   }
 
   @media (max-width: 600px) {
-    .hamburger {
+    .nav-toggle {
         display: block;
     }
 
