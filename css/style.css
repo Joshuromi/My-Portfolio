@@ -130,19 +130,20 @@ header {
     flex-direction: column;
     justify-content: space-around;
     text-align: left;
-    margin: 3em 1em;
-    padding: 0;
+    margin: 5em 0;
+    border-bottom: 3px solid var(--clr-accent);
+    border-top: 3px solid var(--clr-accent);
 }
 
 .nav_link {
-    color: var(--clr-light);
+    color: var(--clr-accent);
     text-decoration: none;
     font-size: var(--fs-h3);
     padding: 0 5%;
 }
 
 .nav_link:hover {
-    color: var(--clr-accent);
+    color: var(--clr-light);
 }
 
 .nav-toggle {
@@ -157,7 +158,7 @@ header {
 }
 
 .nav-open .nav {
-    transform: translateX(65%);
+    transform: translateX(50%);
 }
 
 .nav-open .nav-toggle {
@@ -214,11 +215,8 @@ header {
     background-image: url("https://cdn.glitch.com/e0734b5a-af56-4de9-a956-dc05ac46315c%2Fbackground1.jpg?v=1587215867837");
     background-size: cover;
     background-blend-mode: multiply;
-    background-attachment: fixed;
     border-radius: .3em;
-    height: 30vh;
-    max-width: 950px;
-    margin: auto;
+    height: 250px;
 }
 
 .intro_img {
